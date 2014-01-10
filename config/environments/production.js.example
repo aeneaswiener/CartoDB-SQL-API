@@ -1,7 +1,7 @@
 module.exports.base_url     = '/api/:version';
 // Regular expression pattern to extract username
 // from hostname. Must have a single grabbing block.
-module.exports.user_from_host = '^(.*)\\.localhost';
+module.exports.user_from_host = '^(.*)\\.cytora';
 module.exports.node_port    = 8080;
 module.exports.node_host    = '0.0.0.0';
 // idle socket timeout, in miliseconds
